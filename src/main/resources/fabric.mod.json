@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "realclient",
+  "version": "${version}",
+  "name": "Real Client",
+  "description": "Real Client - by Real_Player_11. Custom title screen with purple theme.",
+  "authors": ["Real_Player_11"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/realclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.realplayer11.realclient.RealClientMod"]
+  },
+  "mixins": ["realclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
